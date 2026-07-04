@@ -22,7 +22,7 @@ Bug no Electron + cache corrompido do Arduino IDE (serial-discovery não inicial
 
 ---
 
-### 2. Limpar caches da Arduino IDE
+### 2. Limpar caches da Arduino IDE (para iniciantes, o "~" eh um padrao que representa o caminho ate a sua pasta padrao {ex: /home/SEU_NOME_DE_USUARIO} )  
 
 ```bash
 rm -rf ~/.arduinoIDE ~/.config/arduino-ide ~/.cache/arduino
