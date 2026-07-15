@@ -1,28 +1,4 @@
-# FIX-de-dev0-TTY----arduinoIDE-chromebook-via-Linux
-consertando bug de nao aparecer porta mesmo com arduino selecionado
+# Helpers e Instaladores
+🌱 Semeando cultura Open Source.
 
-# Arduino IDE 2.x no Chromebook (Crostini) — Fix do menu "Port"
-
-## Problema
-- `/dev/ttyACM0` existe
-- Arduino conectado e reconhecido via `ls /dev/ttyACM0`
-- Arduino IDE abre normalmente
-- Mas **Tools → Port não aparece**
-
----
-
-## Causa provável
-Bug no Electron + cache corrompido do Arduino IDE (serial-discovery não inicializa corretamente no Crostini)
-
----
-
-## Solução padrão (funciona na maioria dos casos)
-
-### 1. Fechar a IDE completamente
-
----
-
-### 2. Limpar caches da Arduino IDE (para iniciantes, o "~" eh um padrao que representa o caminho ate a sua pasta padrao {ex: /home/SEU_NOME_DE_USUARIO} )  
-
-```bash
-rm -rf ~/.arduinoIDE ~/.config/arduino-ide ~/.cache/arduino
+    "Faça pelo menos um movimento definitivo por dia em direção ao seu objetivo"
