@@ -39,5 +39,13 @@ echo 'export PICO_SDK_PATH=$HOME/dev/pico/pico-sdk' >> ~/.bashrc
 source ~/.bashrc
 echo $PICO_SDK_PATH
 clear
+echo "========== INSTALANDO DEPENDENCIAS DO PICOTOOL =========="
+sudo apt install -y cmake build-essential libusb-1.0-0-dev pkg-config git
+echo "========== BAIXANDO A FERRAMENTA PICOTOOL =========="
+git clone https://github.com/raspberrypi/picotool.git
+# FERRAMENTAS ADICIONAIS UTEIS POREM NAO OBRIGATORIAS
+# sudo apt install -y minicom screen gdb-multiarch openocd
+
 echo "========== FIM DO SCRIPT ==========\n\ndhdxs\n"
+
 
